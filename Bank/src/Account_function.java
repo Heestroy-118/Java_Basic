@@ -9,6 +9,7 @@ public class Account_function {
         Account account = new Account(351 - 48648 - 648648);
 
         while (existence) {
+            System.out.println(" ");
 
             System.out.println("--------------------------------------");
             System.out.println("| 1. 예금 | 2. 출금 | 3. 잔고 | 4. 종료 |");
@@ -32,7 +33,7 @@ public class Account_function {
                     break;
                 case 3:
                     System.out.println("3. 잔액조회 > ");
-                    System.out.println("총 잔액은 "+ account.getBalance()+"원 입니다.");;
+                    account.ShowBalance();
                     break;
                 case 4:
                     System.out.println("4. 종료하기 > ");
@@ -40,9 +41,9 @@ public class Account_function {
                     break;
                 default:
                     System.out.println(" 다시 입력해주세요. ");
-                    break;
+                    continue;
             }//switch문
-            sc.close();
-        }
+        }//while문
+        sc.close();
     }
 }

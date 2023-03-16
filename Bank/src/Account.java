@@ -19,9 +19,7 @@
             return balance;
         } //출금
 
-     public int getBalance() {
-         return balance;
-
-
+     public void ShowBalance(){
+         System.out.println("현재 잔액은 "+balance+"원 입니다.");
      }
  }
