@@ -19,7 +19,9 @@
             return balance;
         } //출금
 
-     public void ShowBalance(){
-         System.out.println(balance);
+     public int getBalance() {
+         return balance;
+
+
      }
-}
+ }
