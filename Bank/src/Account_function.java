@@ -6,13 +6,14 @@ public class Account_function {
         boolean existence = true; // 돈이 있는지 없는지 확인
         int money;
 
-        Account account = new Account(351 - 48648 - 648648);
+        Account account = new Account(351 - 48648 - 648648); //계좌번호 설정
+        Account balance = new Account(1000000); //잔액 설정
 
         while (existence) {
             System.out.println(" ");
 
             System.out.println("--------------------------------------");
-            System.out.println("| 1. 예금 | 2. 출금 | 3. 잔고 | 4. 종료 |");
+            System.out.println("| 1. 예금 | 2. 출금 | 3. 잔액 | 4. 종료 |");
             System.out.println("--------------------------------------");
             System.out.println(" 선택 >");
 
@@ -36,7 +37,7 @@ public class Account_function {
                     account.ShowBalance();
                     break;
                 case 4:
-                    System.out.println("4. 종료하기 > ");
+                    System.out.println("4. 프로그램을 종료합니다. ");
                     existence = false;
                     break;
                 default:

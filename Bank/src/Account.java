@@ -5,10 +5,11 @@
 
         public Account(String accountNu) {
             this.accountNu = accountNu;
-        }
+        }//accountNu 멤버변수 초기화
+
         public Account(int balance){
-            this.balance=balance;
-    }
+            this.balance=balance; // balance 초기화
+        }
         public int deposit(int money){
             balance = balance + money;
             return balance;
