@@ -42,7 +42,6 @@ public class Account_function {
                     break;
                 default:
                     System.out.println(" 다시 입력해주세요. ");
-                    continue;
             }//switch문
         }//while문
         sc.close();
