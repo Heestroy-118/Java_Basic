@@ -10,7 +10,7 @@ public class StudentTest {
         studentkim.addSubject("영어", 100);
 
         studentLee.showStudentINfo();
-        System.out.println("===============================");
+        System.out.println("============================");
         studentkim.showStudentINfo();
     }
 }
