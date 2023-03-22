@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Bank/Bank.iml" filepath="$PROJECT_DIR$/Bank/Bank.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Book/Book.iml" filepath="$PROJECT_DIR$/Book/Book.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ID/ID.iml" filepath="$PROJECT_DIR$/ID/ID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Bank/Bank.iml" filepath="$PROJECT_DIR$/Project/Bank/Bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excercise/Book/Book.iml" filepath="$PROJECT_DIR$/Excercise/Book/Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excercise/Excercise.iml" filepath="$PROJECT_DIR$/Excercise/Excercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excercise/ID/ID.iml" filepath="$PROJECT_DIR$/Excercise/ID/ID.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Student/Student.iml" filepath="$PROJECT_DIR$/Student/Student.iml" />
-      <module fileurl="file://$PROJECT_DIR$/transportation/Transportation.iml" filepath="$PROJECT_DIR$/transportation/Transportation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project.iml" filepath="$PROJECT_DIR$/Project/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excercise/Student/Student.iml" filepath="$PROJECT_DIR$/Excercise/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excercise/transportation/Transportation.iml" filepath="$PROJECT_DIR$/Excercise/transportation/Transportation.iml" />
     </modules>
   </component>
 </project>
